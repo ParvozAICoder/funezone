@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Krona One';
+    src: url('../transfonter.org-20210927-101233/KronaOne-Regular.woff2') format('woff2'),
+        url('../transfonter.org-20210927-101233/KronaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+

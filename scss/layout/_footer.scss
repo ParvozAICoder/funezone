@@ -1,0 +1,73 @@
+.footer {
+  margin-top: 150px;
+  padding-bottom: 70px;
+  @media (max-width: 575px) {
+    margin-top: 80px;
+  }
+  &__border {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(98.07deg, #f16b41 0.71%, #c51841 100%);
+  }
+  &__container {
+    max-width: 1270px;
+  }
+  &__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  &__link {
+    @media (max-width: 767px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+  &__social {
+    margin-top: 34px;
+    margin-bottom: 40px;
+    a {
+      margin-right: 14px;
+      img {
+        transition: all 0.3s ease-in-out;
+        border-radius: 50%;
+      }
+      &:hover {
+        img {
+          background-color: rgb(59, 72, 85);
+        }
+      }
+    }
+  }
+  &__category {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+      display: none;
+    }
+    ul {
+      li:nth-child(1) {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 25px;
+        font-family: 'Krona One';
+      }
+      li {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 15px;
+        font-family: "TT Hoves";
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        
+      }
+    }
+  }
+}

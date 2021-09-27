@@ -1,0 +1,49 @@
+.nav-link {
+  color: white;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+  font-family: 'TT Hoves';
+  @media (max-width:991px) {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  &:hover {
+    color: white;
+    opacity: 1;
+  }
+}
+.before {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(98.07deg, #f16b41 0.71%, #c51841 100%);
+  display: none;
+  margin-right: 10px;
+ 
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: transparent;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  
+  .before {
+    display: block;
+  }
+}
+#v-pills-tab{
+  position: relative;
+  z-index: 15;
+  @media (max-width: 992px) {
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+   
+  }
+}
+

@@ -1,0 +1,90 @@
+.arena__card {
+  margin-bottom: 55px;
+transition: all .3s ease-in;
+  &:hover {
+      transform: scale(1.05);
+    .arena__card-img {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &-img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      transition: transform 0.3s ease-in;
+    }
+  }
+  &-status {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    .st-left {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+      font-family: 'Inter';
+    }
+    .st-right {
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      padding: 4px 8px;
+      background: linear-gradient(84.91deg, #58d172 8.18%, #216a3a 90.36%);
+    }
+    .bg-closed{
+      background: linear-gradient(98.07deg, #F16B41 0.71%, #C51841 100%);
+    }
+  }
+  &-text {
+    margin: 15px 0 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ededed;
+    max-width: 295px;
+    font-family: 'TT Hoves';
+  }
+  &-stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &-name {
+    background: linear-gradient(98.07deg, #f16b41 0.71%, #c51841 100%);
+    padding: 2px;
+  }
+  &-type {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 5px 8px;
+    background: #091423;
+    width: 100%;
+    height: 100%;
+    font-family: 'TT Hoves';
+  }
+  &-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    img {
+      margin-right: 5px;
+    }
+  }
+  &-cost {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'TT Hoves';
+  }
+}

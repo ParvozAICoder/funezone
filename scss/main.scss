@@ -1,0 +1,17 @@
+body{
+    font-family: "Krona One, KronaOne-Regular";
+    outline: 2px solid white;
+}
+@import "abstracts/mixins";
+@import "components/cards";
+@import "components/tab";
+@import "base/typography";
+@import "pages/index";
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/carousel";
+@import "layout/categories";
+@import "layout/arean";
+@import "layout/now-open";
+@import "layout/footer";
+@import "components/buttond";

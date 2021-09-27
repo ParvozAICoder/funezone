@@ -1,0 +1,78 @@
+// NAVBAR BUTTON START
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler {
+  width:42px;
+  height: 28px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  .navbar-btnitem {
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+    background: linear-gradient(98.07deg, #f16b41 0.71%, #c51841 100%);
+  }
+  .btn__width {
+    width: 100%;
+  }
+  .btn__e-with {
+    width: 70%;
+  }
+}
+.off-item {
+  transform: rotate(43deg);
+  transform-origin: 0 0;
+}
+.off-item-2 {
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+// for offcanvas 
+.offcanvas-body{
+    padding-top: 40px;
+    ul{
+     .nav-item{
+         margin-bottom: 15px;
+     }   
+    }
+    form{
+        .log-in{
+            margin-top: 25px;
+        }
+    }
+}
+.offcanvas {
+    background: #16202E;
+}
+#off-btn{
+    background: #16202E;
+}
+.offcanvas-start{
+    width: 240px;
+    @media (max-width:500px) {
+        width: 180px;
+    }
+}
+.offcanvas-header{
+    padding: 1rem 5px 0 1rem;
+    img{
+        width: 115px;
+        @media (max-width:500px) {
+            width: 100px;
+        }
+    }
+}
+#off__close{
+    width: 24px;
+    height: 19px;
+    padding: 0;
+    @media (max-width:500px) {
+        width: 20px;
+        height: 17px;
+    }
+}
+// NAVBAR BUTTON END

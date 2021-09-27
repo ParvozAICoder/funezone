@@ -1,0 +1,35 @@
+.arena {
+  margin-top: 100px;
+  &__container {
+    max-width: 1270px;
+  }
+  &__cards {
+    position: relative;
+    .row{
+      position: relative;
+      z-index: 12;
+    }
+    &::after {
+      content: "";
+      width: 705px;
+      height: 164px;
+      position: absolute;
+      background: #13d602;
+      opacity: 0.5;
+      filter: blur(300px);
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+  &__title {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+}
